@@ -45,7 +45,7 @@ def self.genre_count
    binding.pry
   genre_hash[genre] = @@genres.count{|x| x == genre}
 end
-binding.pry
+genre_hash
 end
 
 
