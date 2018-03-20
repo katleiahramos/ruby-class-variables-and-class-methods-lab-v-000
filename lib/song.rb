@@ -42,9 +42,9 @@ genre_hash = {}
 
 def self.genre_count
  @@genres.uniq.each do |genre|
-   binding.pry
-  genre_hash[genre] = @@genres.count {|x| x == genre}
 
+  genre_hash[genre] = @@genres.count {|x| x == genre}
+  binding.pry
 end
 
 end
